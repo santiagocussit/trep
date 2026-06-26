@@ -1,8 +1,10 @@
 import Link from "next/link";
+import PwaInstallPrompt from "@/components/PwaInstallPrompt";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
+      <PwaInstallPrompt />
       <section className="relative overflow-hidden px-4 pb-8 pt-16 text-center sm:pt-24">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_70%)] opacity-15" />
         <div className="relative">
